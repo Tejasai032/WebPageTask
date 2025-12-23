@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 8px silver;
+    padding: 10px 0;
+}
+
+#menulist{
+    list-style: none;
+}
+
+#links{
+    display: flex;
+}
+
+li{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#profile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:200px;
+}
+
+#signin{
+     color: rgb(21, 106, 232);
+}
+
+#home{
+    height:90vh;
+    display: flex;
+    background-color: azure;
+}
+
+.sectionA{
+    width: 60%;
+    height: 90vh;
+    padding-left: 7%;
+}
+
+.sectionB{
+    width: 40%;
+    height: 90vh;
+    padding-left: 20px;
+    
+}
+
+#img{
+    width:400px;
+    height:300px;
+    border-radius: 12px;
+    margin-top: 30%;
+    box-shadow: 0 0 12px #777;
+    position: relative;
+    background-image: url(coding.jpg);
+    background-size: cover;
+}
+
+#content{
+  margin-top: 10%;
+  padding:10px;
+}
+
+#main h1{
+   font-size:50px;
+   font-weight: 900;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color{
+    color: skyblue;
+}
+
+#content p{
+    padding: 8px 0;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.498);
+}
+
+#button{
+    padding: 5px 0;
+}
+.btn{
+    width:200px;
+    height:50px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+#info{
+    text-align: center;
+    padding: 40px 0;
+}
+
+#info h1{
+    font-size: 40px;
+}
+
+#coursecards{
+   margin: 30px 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+.card{
+    width:300px;
+    height:300px;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#count{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+.summary{
+    text-align: center;
+}
+
+.summary span{
+    vertical-align: middle;
+}
+
+#get{
+    background-color: rgb(21, 106, 232);
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width:100px;
+}
+
+#reviewcards{
+    margin: 30px 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+#enroll{
+    width:90%;
+    height: 250px;
+    border-radius: 12px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+}
+
+#contact{
+    margin: 30px 0;
+    display: flex;
+}
+
+.support{
+    display: flex;
+}
+
+form{
+    margin-top: 20%;
+    border-radius: 8px;
+    background-color: rgba(224, 144, 242, 0.1);
+    width:400px;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inputgrp,select{
+    width:100%;
+    height: 30px;
+    
+}
+
+textarea{
+    width:100%;
+    height:100px;
+}
+
+#butn{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color:rgb(21, 106, 232) ;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+#footer{
+    background-color: rgb(34, 40, 49);
+    color: white;
+}
+
+#footerlinks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#end{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#policy{
+    width:350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#certificate{
+    width:200px;
+    height:60px;
+    box-sizing: 0 0 12px silver;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#data p{
+   font-size: 10px;
+}
+
+#data h6{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+#min{
+    background-color: rgb(147, 228, 255);
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: 500;
+    color: rgb(21, 106, 232);
+}
+
+.btnColor{
+    background-color: rgb(21, 106, 232);
+    color: white;
+}
+
+.cardicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width:50px;
+     height:50px;
+     border-radius: 8px;
+}
+
+.list{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.suggestions{
+     box-shadow: 0 0 12px #777;
+     width: 350px;
+     height: 250px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+}
+
+#but{
+    width:200px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(21, 106, 232);
+    font-weight: 500;
+}
+
+#center{
+    text-align: center;
+}
+
+.iconpic{
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+#social{
+    display: flex;
+    padding-left: 20px;
+    height:30px;
+}
+
+#socials{
+    display: flex;
+    margin-top: 5px;
+}
+
+.iconlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width:50px;
+    border-radius: 4px;
+    background-color: rgba(116, 117, 117, 0.2);
+}
+
+.iconlists{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 5px;
+    background-color: rgba(72, 71, 71, 0.498);
+    border-radius: 8px;
+}
+
+#blockA{
+    padding: 10px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.blockB{
+        height:200px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#inpt{
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #7777775f;
+    padding-left: 10px;
+}
+
+#sub{
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: rgb(21, 106, 232);
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
