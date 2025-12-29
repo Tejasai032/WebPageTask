@@ -69,6 +69,14 @@ li{
     border-bottom: 1px solid black;
 }
 
+#title i{
+     margin-right: 2px;
+}
+
+.icon{
+    margin-right: 2px;
+}
+
 #home{
     padding-top: 30px;
     height:100vh;
@@ -124,6 +132,8 @@ li{
 
 #button{
     padding: 5px 0;
+    display: flex;
+    gap: 4px;
 }
 .btn{
     width:200px;
@@ -503,7 +513,7 @@ button{
     background-size: cover;
 }
 
-
+/* ---------------- MOBILE RESPONSIVE ---------------- */
 @media screen and (max-width: 768px) {
 
     nav {
@@ -566,7 +576,7 @@ button{
          text-align: center;
     }
 
-  
+    /* HOME SECTION */
     #home {
         flex-direction: column;
         height: auto;
@@ -607,7 +617,7 @@ button{
         font-size: 32px;
     }
 
-
+    /* COURSE */
     #coursecards {
         flex-direction: column;
         align-items: center;
@@ -624,6 +634,8 @@ button{
         gap:4px;
     }
 
+    /* REVIEWS */
+
     #enroll h1{
          text-align: center;
     }
@@ -638,6 +650,7 @@ button{
         padding: 5px;
     }
 
+    /* CONTACT */
     #contact {
         flex-direction: column;
         align-items: center;
@@ -657,7 +670,9 @@ button{
 
     #cnt{
         display: flex;
-        margin: 20px;
+        justify-content: space-between;
+        width:100%;
+        margin: 20px 10px 0 0 ;
     }
 
     #social{
