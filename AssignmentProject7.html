@@ -3,82 +3,340 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Validations</title>
-    <link rel="stylesheet" href="Project7.css">
+    <title>LearnWeb - Master Web Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="web.css"/>
 </head>
 <body>
-    <div id="container">
-            <form action="Webpage.html" onsubmit="return Validate()">
-                    <h2>Registration</h2>
-                     <label>Full Name</label>
-                     <input type="text" id="Name"/>
-                     <label>Email Address</label>
-                     <input type="text" id="Email"/>
-                     <label>Password</label>
-                     <input type="password" id="pswd"/>
-                     <label>Confirm Password</label>
-                     <input type="password" id="checkpswd"/>
-                     <button type="submit">Submit</button>
-             </form>
+    <nav> 
+        <div id="hamberger"><i class="fa-solid fa-bars fa-xl"></i></div>
+        <div id="title"><h1><span><i class="fa-solid fa-rocket" style="color: #0b77c9;"></i></span>LearnWeb</h1></div>
+        <div id="menu">
+            <ul id="menulist">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#course">Features</a></li>
+                <li><a href="#reviews">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div id="profile">
+            <a href="AssignmentProject7.html" id="signin">Sign in</a>
+            <a href="AssignmentProject7.html" id="get">Get Started</a>
+        </div>
+    </nav>
+
+    <div id="home">
+        <div class="sectionA splsection">
+            <div id="content">
+                <p><span id="min"><span class="icon"><i class="fa-solid fa-star" style="color: #48acf9;"></i></span>Learn Html & Css Today</span></p> 
+                <div id="main">
+                    <h1>Master Web<br>Development <span class="color">From<br>Scratch</span></h1>
+                </div>
+                <p>Start your journey into web Development with our <br> 
+                    comprehensive beginner-friendly course. Learn by doing with<br>
+                    real-world projects.
+                </p>
+                <div id="button">
+                    <form action="AssignmentProject7.html">
+                    <button class="btn btnColor" type="submit">Start Learning Free <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></button> 
+                    </form>
+                    <form action="https://youtu.be/it1rTvBcfRg?si=vSHaQ_7wopEnRaJo">
+                    <button class="btn" type="submit"><span class="icon"><i class="fa-solid fa-play"></i></span>Watch Demo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="sectionB">
+            <div id="img">
+                <div id="certificate">
+                    <div>
+                        <i class="fa-solid fa-circle-check fa-2xl" style="color: #97f2ad;"></i>
+                    </div>
+                    <div id="data">
+                        <h6>Certificate Ready</h6>
+                        <p>Complete & Get Certified</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script>
+    <div id="course">
+        <div id="info">
+            <p><span class="color">Feature</span></p>
+            <h1>Everything You Need to Learn</h1>
+            <p>Our comprehensive curriculum covers all essential HTML and CSS <br>concepts with hands-on-practice</p>
+        </div>
+        <div id="coursecards">
+             <div class="card" style="background-color: rgba(144, 195, 242, 0.1);">
+                <div class="cardicon" style="background-color: #0079d6; color: white;"><i class="fa-solid fa-code fa-2xl"></i> </div>   
+                <div><h3>Interactive Coding</h3></div> 
+                <p> Practice coding in real-time with our interactive code editor. See your changes instantly as you learn </p>
+                <div class="list">
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0f71f0;"></i></span>Live code preview</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0f71f0;"></i></span>Syntax highlighting</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0f71f0;"></i></span>Auto-completion</p>
+                </div>
+            </div>
+            <div class="card" style="background-color: rgba(224, 144, 242, 0.1);">
+                <div class="cardicon"  style="background-color: #9300c4; color: white;"><i class="fa-solid fa-graduation-cap fa-2xl"></i></div>    
+                <div><h3>Step-by-Step Lessons</h3></div> 
+                <p>Follow structured lessons designed for beginners. Each concept builds upon the previous one.</p> 
+                <div class="list">
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #B197FC;"></i></span>Beginner friendly</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #B197FC;"></i></span>Video tutorials</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #B197FC;"></i></span>Quiz assessments</p>
+                </div>     
+             </div>
+             <div class="card" style="background-color: rgba(172, 242, 144, 0.1);">
+                <div class="cardicon"  style="background-color: #42e104; color: white;"><i class="fa-solid fa-laptop-code fa-2xl"></i></div>
+                <div><h3>Real Projects</h3></div> 
+                <p>Build actual website and portfolios. Apply your knowledge to create impressive projects.</p>
+                <div class="list">
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0be040;"></i></span>Portfolio website</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0be040;"></i></span>Landing pages</p>
+                    <p class="lists"><span><i class="fa-solid fa-circle-check" style="color: #0be040;"></i></span>Responsive designs</p>
+                </div> 
+             </div>
+        </div>
+        <div id="count">
+            <div class="summary"> <h1><span class="color">100+</span></h1> <p>Video Lessons</p> </div>
+            <div class="summary"> <h1><span class="color">50+</span></h1> <p>Coding Exercises</p> </div>
+            <div class="summary"> <h1><span class="color">20+</span></h1> <p>Real Projects</p> </div>
+            <div class="summary"> <h1><span class="color">24/7</span></h1> <p>Support Access</p> </div>
+        </div>
+    </div>
 
-             function Validate()
-             {
-                 let Name = document.getElementById("Name").value;
-                 let Email = document.getElementById("Email").value;
-                 let Password = document.getElementById("pswd").value;
-                 let CheckPswd = document.getElementById("checkpswd").value;
+    <div id="reviews">
+         <div id="review-header" style="text-align: center; padding: 40px 0;">
+            <p><span class="color">Testimonials</span></p>
+            <h1>What Our Students Say</h1>
+            <p>Join thousands of successful students who transformed their careers</p>
+        </div>
 
-                 let namecode = /^[a-zA-Z ]{3,18}$/;
-                 let emailcode = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-                 let password = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=]).{8,}$/
-                
-        if (Name == "") {
-            alert("Please enter your name");
-            return false;
-        }
+        <div id="reviewcards">
+              <div class="card suggestions">
+                    <div>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <p>"This course changed my life! I went from knowing nothing about coding to building my own websites in just 3 months."</p>
+                    <div class="message">
+                        <div class="face" id="madhan"></div>
+                        <div>
+                            <h4>Madhan</h4>
+                            <p>Data Engineer</p>
+                        </div>
+                    </div>
+              </div>
+              <div class="card suggestions">
+                    <div>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <p>"Best investment i have made! The hands-on projects really helped me understand HTML and CSS."</p>
+                    <div class="message">
+                        <div class="face" id="suresh"></div>
+                        <div>
+                            <h4>Suresh</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+              </div>
+              <div class="card suggestions">
+                    <div>
+                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i> <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    </div>
+                    <p>"Clear explanations, practical examples, and excellent support. I highly recommend this course."</p>
+                    <div class="message">
+                        <div class="face" id="aravind"></div>
+                        <div>
+                            <h4>Aravind</h4>
+                            <p>ServiceNow Developer</p>
+                        </div>
+                    </div>
+              </div>
+        </div>
 
-        if (!namecode.test(Name)) {
-            alert("Name should contain only letters and spaces");
-            return false;
-        }
+        <div id="enroll">
+            <h1>Ready to Start Your journey?</h1>
+            <div id="para">
+                <p>Join our community of learners and build the skills you need for a </p>
+                <p id="center"> successful career in web development</p>
+            </div>  
+            <form action="AssignmentProject7.html">
+            <button id="but" type="submit">Enroll Now - it's Free <span class="icon"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </form>
+        </div>
+    </div>
 
-        if (Email == "") {
-            alert("Please enter your email");
-            return false;
-        }
+    <div id="contact">
+        <div class="sectionA splContactA">
+            <div id="contactContent">
+                <p><span class="color Ctitle">Contact Us</span></p>
+                <h1>Get in Touch</h1>
+                <div id="CPara">
+                    <p>Have questions? we're here to help! Reach out to our friendly</p>
+                    <p> team and we'll get back to you within 24 hours</p>
+                </div>
+                <div id="cnt">
+                    <div id="det">
+                        <div class="support">
+                            <div class="iconpic" style="background-color: rgba(123, 191, 255,0.2); color: rgb(24, 79, 167);"><i class="fa-solid fa-envelope fa-xl"></i></div>
+                            <div>
+                                <h1>Email Us</h1>
+                                <p>support@learnweb.com</p>
+                            </div>
+                        </div>
+                        <div class="support">
+                            <div class="iconpic" style="background-color: rgba(253, 123, 255, 0.2); color: rgb(148, 24, 167);"><i class="fa-solid fa-phone fa-xl"></i></div>
+                            <div>
+                                <h1>Contact Us</h1>
+                                <p>+91 7696393032</p>
+                            </div>
+                        </div>
+                        <div class="support">
+                            <div class="iconpic" style="background-color: rgba(81, 232, 139, 0.2); color: rgb(24, 167, 72);"><i class="fa-solid fa-location-dot fa-xl"></i></div>
+                            <div>
+                                <h1>Visit Us</h1>
+                                <p>Hyderabad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="social">
+                        <div class="iconlist"><i class="fa-brands fa-facebook-f"></i></div>   
+                        <div class="iconlist"><i class="fa-brands fa-twitter"></i></div> 
+                        <div class="iconlist"><i class="fa-brands fa-instagram"></i></div> 
+                        <div class="iconlist"><i class="fa-brands fa-linkedin-in"></i></div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectionB splContactB">
+            <form id="ContactForm">
+                 <label>Full Name</label>
+                 <input type="text" id="InputName" class="inputgrp"/>
+                 <label>Email Address</label>
+                 <input type="email" id="Inputmail" class="inputgrp"/>
+                 <label>Subject</label>
+                 <select id="Subject">
+                    <option value="">Select Below Options</option>
+                    <option value="Html">HTML</option>
+                    <option value="Css">CSS</option>
+                    <option value="Js">JS</option>
+                 </select>
+                 <label>Message</label>
+                 <textarea id="InputMessage"></textarea>
+                 <button id="butn" type="submit" onclick="AddDetails()">Send Message <span class="icon"><i class="fa-solid fa-paper-plane"></i></span></button>
+            </form>
+        </div>
+    </div> <div id="footer">
+        <div id="footerlinks">
+            <div id="blockA">
+                <h1><i class="fa-solid fa-rocket" style="color: #74C0FC;"></i>LearnWeb</h1>
+                <p style="color: silver;">Empowering the next generation of<br>web developers with quality education.</p>
+                <div id="socials">
+                   <div class="iconlists"><i class="fa-brands fa-facebook-f"></i></div>   
+                   <div class="iconlists"><i class="fa-brands fa-twitter"></i></div> 
+                   <div class="iconlists"><i class="fa-brands fa-instagram"></i></div> 
+                   <div class="iconlists"><i class="fa-brands fa-linkedin-in"></i></div> 
+                </div>
+            </div>
+            <div class="blockB">
+                <h1>Quick Links</h1>
+                <p style="color: silver; cursor: pointer;">About Us</p>
+                <p style="color: silver; cursor: pointer;">Courses</p>
+                <p style="color: silver; cursor: pointer;">Pricing</p>
+                <p style="color: silver; cursor: pointer;">Blog</p>
+            </div>
+            <div class="blockB">
+                <h1>Resources</h1>
+                <p style="color: silver;">Documentation</p>
+                <p style="color: silver;">Tutorials</p>
+                <p style="color: silver;">Community</p>
+                <p style="color: silver;">Support</p>
+            </div>
+            <div class="blockB">
+                <h1>Newsletter</h1>
+                <p style="color: silver;">Subscribe to get the latest updates.</p>
+                <input id="inpt" type="email" placeholder="Your Email"/>
+                <button id="sub" type="submit" onclick="Subscribe()">Subscribe</button>
+            </div>
+        </div>
+        <div id="end">
+            <div><p>@2024 LearnWeb. All rights reserved</p></div>
+            <div id="policy"> 
+                <p>Privacy</p>
+                <p>Terms of Service</p>
+                <p>Cookie Policy</p>
+            </div>
+        </div>
+    </div>
 
-        if (!emailcode.test(Email)) {
-            alert("Please enter a valid email address");
-            return false;
-        }
+<script>
+    const hamberger = document.getElementById("hamberger");
+    const menu = document.getElementById("menu");
+    const emailcode = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
-        if (Password == "") {
-            alert("Please enter password");
-            return false;
-        }
+    hamberger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
 
-        if (!password.test(Password)) {
-            alert("Password must be at least 6 characters and contain one number");
-            return false;
-        }
+    function AddDetails()
+    {
+         let name = document.getElementById("InputName").value;
+         let email = document.getElementById("Inputmail").value;
+         let subject = document.getElementById("Subject").value;
+         let message = document.getElementById("InputMessage").value;
 
-        if (CheckPswd == "") {
-            alert("Please confirm your password");
-            return false;
-        }
+    if (name === "") {
+        alert("Please enter your Full Name");
+        return;
+    }
 
-        if (Password != CheckPswd) {
-            alert("Passwords do not match");
-            return false;
-        }
+    if (email === "") {
+        alert("Please enter your Email Address");
+        return;
+    }
 
-        alert("Registration successful!");
-        return true;
-             }
-        
-    </script>
+    if (email !== emailcode){
+        alert("Invalid MailID");
+        return;
+    }
+
+    if (subject === "") {
+        alert("Please select a Subject");
+        return;
+    }
+
+    if (message === "") {
+        alert("Please enter your Message");
+        return;
+    }
+
+   else{
+    alert("Details are submitted successfully!");
+   }
+
+    document.getElementById("ContactForm").reset();
+   }
+
+   function Subscribe(){
+    let subscribe = document.getElementById("inpt").value;
+
+    if (!subscribe) {
+    alert("Subscribe for updates");
+    return;
+    }
+
+    if (subscribe !== emailcode) {
+    alert("Invalid MailID");
+    return;
+    }
+
+   alert("Thanks for Subscribing us");
+
+    document.getElementById("inpt").value = " ";
+   }
+</script>
+
 </body>
 </html>
